@@ -52,6 +52,7 @@ Appy deployment, service and config cho proxy
 kubectl apply -f nginx-proxy-config.yaml
 kubectl apply -f nginx-proxy-deployment.yaml
 kubectl apply -f nginx-proxy-service.yaml
+```
 Run web
 ```
 minikube service web1 web2
