@@ -7,9 +7,12 @@ git clone https://github.com/cuong111103hd/aohoa5G
 ## Challenge lab 1:
 ```
 #Vao thu muc chua challenge lab 1
-cd
+cd aohoa5G/B1
 #Apply deployment va service
-
+kubectl apply -f nginx-deployment.yaml
+kubectl apply -f nginx-service.yaml
+#Run default website nginx
+minikube service nginx-service 
 ```
 ## Challenge lab 2:
 ```
