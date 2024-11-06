@@ -6,7 +6,7 @@ git clone https://github.com/cuong111103hd/aohoa5G
 ```
 ## Challenge lab 1:
 ![example](challengelab1.png)
-Vào thư mục chưa challenge lab 1:
+Vào thư mục chứa challenge lab 1:
 
 ```
 cd aohoa5G/B1
@@ -21,8 +21,8 @@ Run default website nginx:
 minikube service nginx-service 
 ```
 ## Challenge lab 2:
-
-Vào thư mục chưa challenge lab 2:
+![example](challengelab2.png)
+Vào thư mục chứa challenge lab 2:
 ```
 cd aohoa5G/B2
 ```
@@ -36,7 +36,7 @@ Run web
 minikube service static-web-service
 ```
 ## Challenge lab 3:
-
+![example](challengelab3.png)
 Vào thư mục chứa challenge lab 3:
 ```
 cd aohoa5G/B3
