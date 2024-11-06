@@ -17,8 +17,13 @@ minikube service nginx-service
 ## Challenge lab 2:
 ```
 #Vao thu muc chua challenge lab 2
-cd
+cd aohoa5G/B2
 #Apply deplyment and service
+kubectl apply -f static-web-deployment.yaml
+kubectl apply -f static-web-service.yaml
+#Run web
+minikube service static-web-service
+
 
 ```
 ## Challenge lab 3:
