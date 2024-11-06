@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: static-web-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: static-web
+  template:
+    metadata:
+      labels:
+        app: static-web
+    spec:
+      containers:
+      - name: nginx
+        image: cuong111103hd/static-web-nginx:latest 
+        ports:
+        - containerPort: 80
