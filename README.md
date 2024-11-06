@@ -5,6 +5,7 @@ Clone file từ git hub về:
 git clone https://github.com/cuong111103hd/aohoa5G
 ```
 ## Challenge lab 1:
+![example](challengelab1.png)
 Vào thư mục chưa challenge lab 1:
 
 ```
