@@ -2,7 +2,7 @@
 
 Clone file từ git hub về:
 ```
-git clone 
+git clone https://github.com/cuong111103hd/aohoa5G/tree/main
 ```
 ## Challenge lab 1:
 ```
